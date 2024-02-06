@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Section</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color:aquamarine;
+    }
+    
+    .blog {
+      margin: 20px;
+      padding: 20px;
+      border: 1px solid black;
+      border-radius: 8px;
+      max-width: 600px;
+      display: flex;
+      flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        position: relative;
+        left:600px;
+        background-color:orangered;
+    }
+
+    .like-container {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .like-btn {
+      cursor: pointer;
+    }
+
+    .comments-section {
+      margin-top: 20px;
+    }
+
+    .comment {
+      margin-bottom: 10px;
+    }
+    .wonder
+    {
+        font-family: 'Protest Riot', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        color: white;
+    }
+  </style>
+</head>
+<body>
+
+<div class="blog" id="blog1">
+  <h2 align="center">Blog 1</h2>
+  <div class="wonder"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem voluptates porro praesentium neque quo corrupti pariatur nostrum laboriosam totam? Saepe nostrum obcaecati iusto praesentium dolore consequatur quos voluptatum, atque dicta aliquam reiciendis tenetur voluptatem. Commodi est minus illo, vero tempora quidem et magnam asperiores rerum voluptatibus corporis sequi aliquid reprehenderit! Ea veniam id officiis illo dolorem ad? Pariatur, consequuntur soluta! Enim eligendi sunt possimus necessitatibus blanditiis commodi esse vero aliquid aliquam. Quibusdam, autem maxime! Aliquam nisi porro repellat provident unde quia a, eum est nihil voluptas, nam animi placeat impedit quae doloribus tempora facilis rem eaque! Distinctio ullam nisi numquam ad quo. Aliquam sint reiciendis earum eaque explicabo eveniet velit recusandae, suscipit quo adipisci? Quam nisi sed modi, blanditiis nulla dolore quas id, a consequuntur odio quos reprehenderit deleniti vero ipsa esse vitae. Ab omnis optio unde obcaecati ad? Fuga nulla laboriosam numquam repellat quo consectetur quisquam, corrupti debitis accusantium ut voluptas repudiandae assumenda! Dolor esse sequi quod vel voluptate eaque cumque, earum, quos id optio facilis, mollitia debitis illum hic possimus laboriosam. Praesentium ipsum corporis tempora nihil cum minus atque ad voluptatem aspernatur placeat necessitatibus voluptate, eligendi libero nostrum veritatis quasi itaque harum quis excepturi tenetur velit sed eius assumenda? Autem nisi officia et repellendus dolor voluptas asperiores labore reprehenderit voluptatibus recusandae illo quia aliquid cupiditate inventore, aperiam exercitationem mollitia numquam necessitatibus cum, impedit rerum praesentium? Itaque delectus, veniam, at deserunt est ex vitae consectetur dolor, sunt esse pariatur id. Consequuntur praesentium nemo voluptatibus itaque dolore, eius unde velit facilis ut fugit cum rem vero maiores nostrum accusamus. At repudiandae rerum quos facilis eveniet. Consequuntur fugiat modi hic, eveniet assumenda odio doloremque earum molestias aperiam illo reprehenderit? Tempore, omnis deserunt aliquam laudantium tenetur numquam, quaerat ratione quasi recusandae eius officiis aut voluptas, magnam ut nesciunt dolore veritatis corrupti neque.</p></div>
+  <div class="like-container">
+    <span class="like-btn" onclick="toggleLike('blog1')">❤️</span>
+    <span id="likeCount_blog1">0</span>
+  </div>
+  <div class="comments-section">
+    <h3>Comments</h3>
+    <div id="comments_blog1"></div>
+    <textarea id="commentInput_blog1" placeholder="Add a comment"></textarea>
+    <button onclick="addComment('blog1')">Add Comment</button>
+  </div>
+</div>
+
+<div class="blog" id="blog2">
+  <h2 align="center">Blog 2</h2>
+  <div class="wonder"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus veritatis quibusdam laboriosam quasi itaque officiis culpa maxime, fuga voluptatibus atque consectetur totam, optio aspernatur! Amet tenetur commodi quibusdam consequuntur, at alias? Aliquid numquam optio earum at dicta ipsam voluptas corrupti neque voluptatem odit laudantium maiores error voluptatum, quo quasi sint recusandae? Distinctio minus hic cum tempora doloribus? Fugit nemo, libero explicabo porro totam veniam corporis sint doloremque, dicta ullam modi perferendis natus distinctio impedit ea. Ipsum voluptatem eveniet eaque, perspiciatis totam reprehenderit harum cupiditate fugiat unde ea necessitatibus minus voluptates officia est vero quasi aperiam dolore molestias perferendis? Maxime esse consectetur vitae aut sequi odit. Deleniti modi excepturi vel, dicta quibusdam, dolor cumque aliquam incidunt odit tempora nam eum expedita tenetur totam, debitis delectus! Est unde animi dolores quaerat iste commodi ut recusandae eum eius molestiae asperiores sapiente sed illo qui odit laboriosam perspiciatis dignissimos velit doloremque dolor voluptas a maxime, architecto accusamus. Tenetur hic facere ab voluptatem corporis dolores maxime adipisci autem ratione rem voluptates odio voluptas perferendis temporibus dolorum commodi quas, quidem dolorem modi distinctio aliquam. Perferendis modi ratione dignissimos quia libero quasi sit et voluptatum nisi voluptas non, incidunt inventore optio fugiat rerum sint officiis quas maiores consectetur aliquam veritatis totam amet ullam ab? Rerum ratione vitae quaerat est magnam, quod aut asperiores, id architecto voluptate enim et eaque, pariatur dolore blanditiis consectetur dolor! Accusamus, eos aspernatur? Eveniet dolore ea harum architecto quas temporibus molestias deserunt dolorem ullam eligendi, qui amet voluptas doloremque iste sunt nisi fugit reprehenderit est iure. Nostrum debitis ea, eveniet laudantium at natus cum corporis animi saepe consequuntur officia aut, aliquid quam est odio ipsa molestiae. Vero rem repudiandae pariatur quae soluta, deleniti alias dolore possimus asperiores ullam corrupti ratione voluptates nihil accusamus recusandae eligendi sapiente impedit sequi qui nobis laboriosam doloribus perferendis!</p></div>
+  <div class="like-container">
+    <span class="like-btn" onclick="toggleLike('blog2')">❤️</span>
+    <span id="likeCount_blog2">0</span>
+  </div>
+  <div class="comments-section">
+    <h3>Comments</h3>
+    <div id="comments_blog2"></div>
+    <textarea id="commentInput_blog2" placeholder="Add a comment"></textarea>
+    <button onclick="addComment('blog2')">Add Comment</button>
+  </div>
+</div>
+
+<script>
+ 
+  function toggleLike(blogId) {
+    const likeBtn = document.querySelector(`#${blogId} .like-btn`);
+    const likeCount = document.querySelector(`#likeCount_${blogId}`);
+
+
+    const isLiked = likeBtn.classList.contains('liked');
+    
+    if (isLiked) {
+      likeBtn.classList.remove('liked');
+      likeCount.textContent = parseInt(likeCount.textContent) - 1;
+    } else {
+      likeBtn.classList.add('liked');
+      likeCount.textContent = parseInt(likeCount.textContent) + 1;
+    }
+
+    
+    localStorage.setItem(`${blogId}_like`, isLiked ? '0' : '1');
+    localStorage.setItem(`${blogId}_likeCount`, likeCount.textContent);
+  }
+
+
+  function addComment(blogId) {
+    const commentInput = document.querySelector(`#commentInput_${blogId}`);
+    const commentsContainer = document.querySelector(`#comments_${blogId}`);
+
+    const commentText = commentInput.value.trim();
+    if (commentText !== '') {
+      const commentDiv = document.createElement('div');
+      commentDiv.classList.add('comment');
+      commentDiv.textContent = commentText;
+      commentsContainer.appendChild(commentDiv);
+
+      const comments = JSON.parse(localStorage.getItem(`${blogId}_comments`)) || [];
+      comments.push(commentText);
+      localStorage.setItem(`${blogId}_comments`, JSON.stringify(comments));
+
+      commentInput.value = '';
+    }
+  }
+
+
+  function initializeBlog(blogId) {
+    const likeBtn = document.querySelector(`#${blogId} .like-btn`);
+    const likeCount = document.querySelector(`#likeCount_${blogId}`);
+    const commentsContainer = document.querySelector(`#comments_${blogId}`);
+
+    const isLiked = localStorage.getItem(`${blogId}_like`) === '1';
+    const likeCountValue = localStorage.getItem(`${blogId}_likeCount`) || '0';
+    const comments = JSON.parse(localStorage.getItem(`${blogId}_comments`)) || [];
+
+    if (isLiked) {
+      likeBtn.classList.add('liked');
+    }
+    likeCount.textContent = likeCountValue;
+
+    comments.forEach(commentText => {
+      const commentDiv = document.createElement('div');
+      commentDiv.classList.add('comment');
+      commentDiv.textContent = commentText;
+      commentsContainer.appendChild(commentDiv);
+    });
+  }
+
+  initializeBlog('blog1');
+  initializeBlog('blog2');
+</script>
+
+</body>
+</html>
